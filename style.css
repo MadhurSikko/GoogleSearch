@@ -1,0 +1,120 @@
+/*dock for the front end website */
+#dock, #dock-as {
+    display: flex;
+    height: 48px;
+    justify-content: flex-end;
+    margin: 5px 5px 0px 5px;
+    /*border-bottom: 2.6px solid rgb(43, 42, 42);*/
+}
+
+#dock-as {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dock-as > img {
+    padding-top: 14px;
+    padding-left: 10px;
+    width: 74px;
+    height: 24px;
+}
+
+#dock > a, #dock-as > a {
+    text-decoration: none;
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-right: 17px;
+    padding-top: 14px;
+
+}
+
+#as {
+    color: #FF8576;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 25px 0px;
+    padding: 20px;
+    display: block;
+    border-bottom: white solid 1px;
+    padding-left: 40px;
+
+}
+
+#dock > a:hover, #dock-as > a:hover {
+    text-decoration:underline;
+}
+
+/* giving the webiste a black background because black mode > white mode */
+body {
+    /*background-color: rgb(31, 31, 31);*/
+    background-color: black;
+}
+
+/* styling the google logo*/
+#google-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+ 
+#google-image > img{
+    height: 92px;
+    width: 272px;
+}
+
+/*styling the search bar and search button*/
+.form-centre {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.search-bar {
+    width: 582px;
+    height: 46px;
+    border-radius: 24px;
+    background-color: black;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 19px;
+
+}
+
+.search-bar:hover {
+    border: 1px solid rgba(255, 255, 255, 0.428);
+}
+
+.search-button, .search-button-image {
+    background-color: black;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
+}
+
+
+
+.button-box {
+    padding-left: 25%;
+    margin-top: 18px;
+}
+
+.search-button:hover, .search-button-image:hover {
+    border: 1px solid rgba(255, 255, 255, 0.444)
+}
+
+
+
