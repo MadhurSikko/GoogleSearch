@@ -113,8 +113,57 @@ body {
 }
 
 .search-button:hover, .search-button-image:hover {
-    border: 1px solid rgba(255, 255, 255, 0.444)
+    border: 1px solid rgba(255, 255, 255, 0.444);
 }
 
+span{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0px 30px 40px;
+}
 
+td > h4 {
+    font-size: 16px;
+}
+
+td {
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 40px;
+
+}
+
+.searchbar-sm {
+    width: 500px;
+    height: 29px;
+    padding: 1px 8px 1px 8px;
+    background-color:black;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+.searchbar-sm:hover {
+    border: 1px solid rgba(255, 255, 255, 0.428);
+}
+
+.searchbutton {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 12px 0px 12px;
+    height: 30px;
+    width: 150px;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+}
+
+.searchbutton:hover {
+    border: 1px solid rgba(255, 255, 255, 0.444);
+}
 
